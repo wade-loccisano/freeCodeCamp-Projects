@@ -1,0 +1,94 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=">
+  <title>Mystical Survey</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
+  <header>
+  <h1 id="title">The Survey of Dreams</h1>
+  <p id="description">
+    Hello, fill out this survey to be visited by machine elves tonight in your dreams.
+  </p>
+  </header>
+  
+  <form id="survey-form">
+    <div class="survey-item">
+      <label id="name-label" for="name">Name:</label>
+      <input class="form-field" type="text" id="name" name="name" placeholder="Enter your name..." required>
+    </div> 
+    <div class="survey-item">
+      <label id="email-label" for="email">Email:</label>
+      <input class="form-field" type="email" id="email" name="name" placeholder="Enter your email..." required>
+    </div>
+    <div class="survey-item">
+      <label id="number-label" for="number">Number of Chakras you have Awakened (optional):</label>
+      <input class="form-field" type="number" id="number" name="number" min="1" max="777" placeholder="Your Age (Spiritual or Physical)">
+    </div>
+    <div class="survey-item">
+    <label for="dropdown">Select your resonant spirit animal:</label>
+     <select name="spirit-animal" id="dropdown">
+      <option value="wolf">Wolf</option>
+      <option value="raven">Raven</option>
+      <option value="obsidian colossus">Obsidian Colossus</option>
+      <option value="deva">Deva</option>
+     </select>
+    </div>
+    <div class="survey-item">
+      <p>Select your native elemental alignment:</p>
+      <label>
+        <input class="input-radio" type="radio" id="earth" name="elemental-alignment" value="earth" checked>
+        Earth
+      </label>
+      <label>
+        <input class="input-radio" type="radio" id="fire" name="elemental-alignment" value="fire">
+        Fire
+      </label>
+      <label>
+        <input class="input-radio" type="radio" id="wind" name="elemental-alignment" value="wind">
+        Wind
+      </label>
+      <label>
+        <input class="input-radio" type="radio" id="water" name="elemental-alignment" value="water">
+        Water
+      </label>
+      <label>
+        <input class="input-radio" type="radio" id="aether" name="elemental-alignment" value="aether">
+        Aether
+      </label>
+      <label>
+        <input class="input-radio" type="radio" id="wood" name="elemental-alignment" value="wood">
+        Wood
+      </label>
+    </div>
+    <div class="survey-item">
+      <p>Select all gemstones you wish to incorporate into this experience:</p>
+      <label>
+        <input class="input-checkbox" type="checkbox" id="ruby" name="ruby" value="ruby">
+        Ruby
+      </label>
+      <label>
+        <input class="input-checkbox" type="checkbox" id="emerald" name="emerald" value="emerald">
+        Emerald
+      </label>
+      <label>
+        <input class="input-checkbox" type="checkbox" id="sapphire" name="sapphire" value="sapphire">
+        Sapphire
+      </label>
+    </div>
+    <div class="survey-item">
+      <label for="comments">Feel free to share additional information regarding your expanded consciousness here:</label>
+      <textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+    </div>
+    <button id="submit">Submit Information</button>
+  </form>
+  </div>
+  
+</body>
+</html>
