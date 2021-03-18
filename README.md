@@ -1,10 +1,10 @@
 # freeCodeCamp Projects
 
-This is a repository of projects I have completed on freeCodeCamp.
+This is a repository of all the projects I have completed while learning on freeCodeCamp.
 
 As part of my training to become a better software developer, I have begun to work through all the certifications on freeCodeCamp. This
-respository will act as a log of my progress and I hope to see my growth over time as my coding skills improve. The projects are broken
-down into folders by certification. My MVP goal for each project is to pass all the tests. My stretch goal is to make it look as presentable as possible. I hope to be able to progress a little everyday.
+respository will act as a log of my progress and a marker for my coding skills over time. The projects have been broken
+down into folders by individual certification. My MVP goal for each project is to satisfy all user stories and pass all tests. My stretch goal will be project dependent. My meta goal is consistency in practice.
 
 Thanks again for stopping by!
 
